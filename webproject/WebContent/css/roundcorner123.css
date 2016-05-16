@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+/*<p id="rcornders1">~</p>*/
+/*코너가 라운드. 배경 색칠*/
+#rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
+
+/*코너가 라운드. 배경색 없음.*/
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
+
+/*with background image*/
+#rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}

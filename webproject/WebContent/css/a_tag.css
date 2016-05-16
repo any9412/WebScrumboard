@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+/*<a> 이거 속성*/
+/* unvisited link */
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: underline;
+}

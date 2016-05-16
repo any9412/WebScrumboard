@@ -1,0 +1,18 @@
+@CHARSET "EUC-KR";
+
+body {
+background-color:#F2F2F2;
+}
+
+H2 {
+font-family:'Helvetica Neue',Arial,sans-serif;	
+}
+
+td {
+	background-color:#5B74A8; 
+	font-family:'Helvetica Neue',Arial,sans-serif; 
+	color:white;
+	border-radius:20px; 
+	width:auto; 
+	padding:15px;
+}
